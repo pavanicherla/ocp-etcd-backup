@@ -12,7 +12,7 @@ RUN cp ./oc /usr/local/bin/oc
 RUN apk update
 
 # Needed to run the oc binary
-RUN apk add gcompat==1.1.0-r1exi
+RUN apk add gcompat==1.1.0-r1
 
 RUN apk add aws-cli==2.13.5-r0
 

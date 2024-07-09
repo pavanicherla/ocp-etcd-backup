@@ -16,7 +16,6 @@ RUN apk update
 # Needed to run the oc binary
 RUN apk add gcompat==1.1.0-r4
 
-RUN apk add aws-cli==2.13.25-r0
 
 RUN rm -rf /var/cache/apk/*
 

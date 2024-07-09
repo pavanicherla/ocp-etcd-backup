@@ -1,4 +1,4 @@
-FROM alpine:3.19.1
+FROM alpine:3.20.1
 
 LABEL author="Lim Xing Kang Norman<frenoid@gmail.com>"
 LABEL repository="https://github.com/frenoid/ocp-etcd-backup"
